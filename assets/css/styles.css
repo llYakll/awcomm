@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.background-container {
+    background-image: url('../imgs/bigtower.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    min-height: 100vh; /* Ensure the container covers at least the full viewport height */
+}
+
+header {
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.8); /* Use rgba() for specifying color with transparency */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3vw;
+}
+
+
+.logo h1 {
+    margin: 0;
+}
+
+.content-box {
+height: 84vh;
+padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+nav a:hover {
+    background-color: #666;
+}
+
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Center content horizontally */
+}
+
+footer {
+    background-color: rgba(34, 34, 34, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
